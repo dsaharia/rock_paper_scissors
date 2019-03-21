@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #292C34;
+}
+header {
+	background-color: white;
+	padding: 20px;
+}
+
+header > h1 {
+	color: #24272E;
+	text-align: center;
+	font-family: Courgette, sans-serif;
+}
+
+.score-board {
+	border: 3px solid white;
+	width: 200px;
+	margin : 40px auto;
+	font-size: 46px;
+	color: white;
+	border-radius: 4px;
+	text-align: center;
+	padding: 15px 20px;
+	font-family: Courgette, sans-serif;
+	position: relative;
+}
+
+.badge {
+	background-color: #E25840;
+	font-family: Courgette, sans-serif;
+	font-size: 18px;
+	padding: 2px 12px;
+	color: white;
+
+}
+
+#user-label {
+	position: absolute;
+	top: 30px;
+	left: -35px;
+}
+
+#comp-label {
+	position: absolute;
+	top: 30px;
+	right: -42px;
+}
+
+.result {
+	color: white;
+	font-family: Courgette, sans-serif;
+}
+.result > p {
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+}
+.choices {
+	text-align: center;
+	margin: 35px 0;
+}
+.choice {
+	display: inline-block;
+	text-align: center;
+	border: 4px solid white;
+	border-radius: 50px;
+	padding: 10px;
+	margin : 0px 20px;
+	transition: all 0.3s ease;
+}
+
+.action-message {
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	font-family: Courgette, sans-serif;
+}
+
+.choice:hover {
+	cursor: pointer;
+	background: #E25840;
+}
